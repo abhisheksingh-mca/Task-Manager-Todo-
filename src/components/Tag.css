@@ -1,0 +1,25 @@
+.tag {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    border: 1px solid #cdd0d3;
+    box-shadow: 2px 2px 3px rgb(71, 97, 240);
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s;
+  border-bottom: 4px solid lighten(gray, 70%);
+}
+
+.tag:hover{
+    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+    transform: scale(1.03);
+
+}
+.tag:active{
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform: scale(.98);
+    scale: 0.9;
+
+}
